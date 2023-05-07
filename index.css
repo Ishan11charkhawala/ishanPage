@@ -52,6 +52,7 @@
     /* border: 2px solid red; */
     justify-content: center;
     align-items:center ;
+    text-align:center;/*by dev*/
     padding: 100px;
     font-size: 1.9rem;
     flex-direction: column;
