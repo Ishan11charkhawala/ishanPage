@@ -1,0 +1,355 @@
+/* body{
+    background-color: black;
+} */
+@media screen and (min-width:1px) and (max-width:300px){
+    #navbar{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        /* background-color: black; */
+        
+    }
+    #navbar div img{ 
+        padding-left:13%;
+    } 
+    
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 5px;
+        padding-bottom: 8px;
+    }
+    .home{
+        height: 370px; 
+        padding: 3px 20px;
+        /* width: 100%; */
+    }
+    
+    .home::before{
+        height: 480px; 
+    }
+    
+    .home p{
+        font-size: 13px;
+        /* flex-direction: column; */
+    }
+    #about{
+        flex-wrap: wrap;
+    }
+    .sport {
+        width:100%;
+    }
+    .acadamic {
+        width:100%;
+    }
+    .cantin {
+        width:100%;
+    }
+    .sport a{
+        display: flex;
+        justify-content: center;
+
+    }
+    .sport a img{
+       
+        width:70%;
+       }
+    .acadamic a{
+        display: flex;
+        justify-content: center;  
+    }
+    .acadamic a img{
+        width:70%;
+       }
+    .cantin a{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .cantin a img{
+       
+        width:70%;
+       }  
+}
+@media screen and (min-width:301px) and (max-width:411px) {
+    #navbar{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        /* background-color: black; */
+        justify-content: center;
+    }
+    #navbar div img{
+        padding-left:24%;
+    }
+    
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 20px;
+        padding-bottom: 8px;
+    }
+    .home{
+        height: 370px; 
+        padding: 3px 20px;
+        /* width: 100%; */
+    }
+    
+    .home::before{
+        height: 480px; 
+    }
+    
+    .home p{
+        font-size: 13px;
+        /* flex-direction: column; */
+    }
+    #about{
+        flex-wrap: wrap;
+    }
+    .sport {
+        width:100%;
+    }
+    .acadamic {
+        width:100%;
+    }
+    .cantin {
+        width:100%;
+    }
+    .sport a{
+        display: flex;
+        justify-content: center;
+
+    }
+    .sport a img{
+       
+        width:70%;
+       }
+    .acadamic a{
+        display: flex;
+        justify-content: center;  
+    }
+    .acadamic a img{
+        width:70%;
+       }
+    .cantin a{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .cantin a img{
+       
+        width:70%;
+       }  
+   
+
+}
+@media screen and (min-width:412px) and (max-width:545px) {
+    #navbar{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        /* background-color: black; */
+      
+    }
+    #navbar div img{
+        padding-left:24%;
+    }
+    
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 20px;
+        padding-bottom: 8px;
+    }
+    .home{
+        height: 370px; 
+        padding: 3px 30px;
+        /* width: 100%; */
+    }
+    
+    .home::before{
+        height: 480px; 
+    }
+    
+    .home p{
+        font-size: 13px;
+        /* flex-direction: column; */
+    }
+    #about{
+        flex-wrap:wrap ;
+    }
+    .sport {
+        width:100%;
+    }
+    .acadamic {
+        width:100%;
+    }
+    .cantin {
+        width:100%;
+    }
+    .sport a{
+        display: flex;
+        justify-content: center;
+
+    }
+    .sport a img{
+       
+        width:70%;
+       }
+    .acadamic a{
+        display: flex;
+        justify-content: center;  
+    }
+    .acadamic a img{
+        width:70%;
+       }
+    .cantin a{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .cantin a img{
+       
+        width:70%;
+       }  
+
+}
+@media screen and (min-width:545px) and (max-width:717px) {
+    #navbar{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        /* background-color: black; */
+        justify-content: center;
+    }
+    #navbar div img{
+       margin-left: 30%;
+    }
+    
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 20px;
+        padding-bottom: 8px;
+    }
+    .home{
+        height: 370px; 
+        padding: 3px 30px;
+        /* width: 100%; */
+    }
+    
+    .home::before{
+        height: 480px; 
+    }
+   
+    
+    .home p{
+        font-size: 13px;
+        /* flex-direction: column; */
+    }
+   
+   #about{
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .sport{
+    width: 100%;
+   }
+  
+    .sport a{
+        display: flex;
+        /* width: 50%; */
+        justify-content: center;
+
+    }
+    .sport a img{
+       
+        width: 60%;
+       }
+       .acadamic{
+        width: 100%;
+       }
+    .acadamic a{
+        display: flex;
+        justify-content: center;  
+    }
+    .acadamic a img{
+        width:60%;
+       }
+       .cantin{
+        width: 100%;
+       }
+    .cantin a{
+        display: flex;
+        /* justify-content: center; */
+        
+    }
+    .cantin a img{
+       
+        width:60%;
+       }
+
+         
+   
+
+}
+@media screen and (min-width:717px) and (max-width:719px) {
+    #navbar{
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        /* background-color: black; */
+    }
+    
+    #navbar div img{
+        margin-left: 3%;
+     }
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 10px;
+        padding-bottom: 8px;
+    }
+    .home{
+        height: 370px; 
+        padding: 3px 30px;
+        /* width: 100%; */
+    }
+    
+    .home::before{
+        height: 480px; 
+    }
+    
+    .home p{
+        font-size: 13px;
+        /* flex-direction: column; */
+    }
+}
+@media screen and (min-width:715px) and (max-width:917px) {
+    .sport {
+        width:100%;
+    }
+    .acadamic {
+        width:100%;
+    }
+    .cantin {
+        width:100%;
+    }
+    .sport a{
+        display: flex;
+        justify-content: center;
+
+    }
+    .sport a img{
+       
+        width:70%;
+       }
+    .acadamic a{
+        display: flex;
+        justify-content: center;  
+    }
+    .acadamic a img{
+        width:70%;
+       }
+    .cantin a{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .cantin a img{
+       
+        width:70%;
+       }
+}
+
+
